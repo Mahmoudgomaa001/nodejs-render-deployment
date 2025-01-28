@@ -1,2 +1,17 @@
-npm init -y
-npm install express ytdl-core
+{
+    "name": "youtube-stream-server",
+    "version": "1.0.0",
+    "description": "A Node.js server to fetch YouTube video stream URLs",
+    "main": "main.js",
+    "scripts": {
+      "start": "node main.js",
+      "dev": "NODE_ENV=development PORT=3000 node main.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "ytdl-core": "^4.11.5"
+    },
+    "engines": {
+      "node": ">=14.17.0"
+    }
+  }
