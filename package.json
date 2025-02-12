@@ -1,17 +1,15 @@
 {
-    "name": "youtube-stream-server",
-    "version": "1.0.0",
-    "description": "A Node.js server to fetch YouTube video stream URLs",
-    "main": "main.js",
-    "scripts": {
-      "start": "node main.js",
-      "dev": "NODE_ENV=development PORT=3000 node main.js"
-    },
-    "dependencies": {
-      "express": "^4.17.1",
-      "ytdl-core": "^4.11.5"
-    },
-    "engines": {
-      "node": ">=14.17.0"
-    }
+  "name": "render-url-redirect",
+  "version": "1.0.0",
+  "description": "A simple Render app that redirects to a specified URL.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.x"
   }
+}
